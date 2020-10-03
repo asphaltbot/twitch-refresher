@@ -1,0 +1,26 @@
+{
+  "hosts": [
+    {
+      "ip": "127.0.0.1",
+      "port": 3306,
+      "username": "root",
+      "password": "root",
+      "db": "testdb",
+      "table": "credentialtable"
+    },
+    {
+      "ip": "127.0.0.2",
+      "port": 6969,
+      "username": "root",
+      "password": "myverysecurepassword",
+      "db": "testdb",
+      "table": "credentialtable"
+    }
+  ],
+  "credentials": {
+    "sentry": "<insert sentry dsn or leave blank>",
+    "twitch_access_token": "something, required - use twitchtokengenerator.com",
+    "twitch_client_id": "something, required - use twitchtokengenerator.com",
+    "twitch_refresh_token": "something, required - use twitchtokengenerator.com"
+  }
+}
